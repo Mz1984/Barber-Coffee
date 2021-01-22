@@ -1,0 +1,219 @@
+
+
+body
+{
+   
+  height: 1500px;
+}
+.container-fluid
+{
+    background-color: 
+}
+/* Icon lorsque le contenu est affiché*/
+  .btn1:after {
+    font-family: "Glyphicons Halflings";
+    content: "\e114";
+    float: right;
+    margin-left: 15px;
+  }
+/* Icon lorsque le contenu est masqué */
+  .btn1.collapsed:after {
+    content: "\e080";
+  }
+.bloc
+{
+    margin-bottom: 1px;
+    background-color: brown;
+}
+
+.btn1
+{
+    margin-top: 2px; 
+}
+.btn-warning
+{
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    background-color: #333667;
+    border: 1px solid brown;
+}
+.btn-warning:hover
+{
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    background-color: brown; 
+}
+.col-sm-3
+{
+    background-color: #333667;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding-top: 6px;
+    margin: 1px 3px 0px 10px;
+    width: 32%;
+    height: 40px;
+    border-radius: 5px;
+    
+}
+.col-sm-3:hover
+{
+    background-color: brown;
+    cursor: pointer;
+}
+.navbar
+{
+    margin-bottom: 2px;
+}
+.pre
+{ 
+    border: 2px solid brown;
+    border-radius: 5px;
+    width: 98%; 
+    margin: 2px 0px 0px 10px;
+    padding: 1px 15px 1px 15px;
+}
+.row
+{
+    margin-top: 1px;
+    padding-top: 0px;
+}
+.row1
+{
+    margin-top: 1px;
+    padding-top: 0px;
+    display: flex;
+}
+.sous-rowG
+{  
+    margin-top: 1px;
+    width: 75%;
+}
+.sous-rowD
+{ 
+    width: 10%;
+    margin-top: 5px;
+    padding-top: 0px;
+    text-align: center;
+}
+.carouselG
+{
+    width: 100%; 
+    margin: 4px 2px 4px 5px; 
+    padding: 5px;
+    border: 2px solid brown;
+    border-radius: 5px;    
+}
+.carouselM
+{
+    width: 100%; 
+    margin: 4px 2px 4px 5px; 
+    padding: 5px;
+    border: 2px solid brown;
+    border-radius: 5px;    
+}
+.carouselD
+{
+    width: 40%; 
+    height: 141px;
+    margin: 4px 2px 4px 5px;
+    padding: 2px 2px 4px 2px; 
+    border: 2px solid brown;
+    border-radius: 5px;   
+    text-align: center;
+}
+.champ-saisie
+{
+    width: 100%; 
+    margin: 4px 2px 4px 5px; 
+    display: flex;
+}
+.champ-label
+{
+    font-size: 18px;
+    width: 160px; 
+    margin: 4px 2px 4px 2px; 
+}
+.champ-input
+{
+    width: 70%; 
+    margin: 4px 2px 4px 2px;  
+}
+.form-control
+{
+    cursor: pointer; 
+}
+.table 
+{
+    border: 2px solid black; 
+}
+.td-vide
+{
+    width: 20%;
+}
+.td-videD
+{
+    background-color: white;
+    width: 30%;
+}
+.dropdown-menu
+{
+    background-color: #D6EAF8 ;
+    width: 300px;
+    color: black;
+    font-size: 18px;
+}
+.btn-block
+{
+    background-color:#333667; 
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.btn-block:hover
+{
+    background-color:brown;
+    color: white;
+}
+.small
+{
+    color: black;
+}
+.progress
+{
+    height: 30px;
+    width: 80%;
+    margin-left: 50px;
+}
+.progress-bar
+{
+    height: 100%;   
+    padding: 5px 5px 0px 10px;
+    text-align: center;
+    color: white;
+}
+.form-textarea
+{
+    width: 100%;
+    height: 100px;
+}
+.carousel slide
+{
+    width: 60%;
+    text-align: center;
+}
+a:hover
+{
+    text-decoration: none;
+}
+a:focus
+{
+    text-decoration: none;
+}
+.panel-default
+{
+    background-color: red;
+}

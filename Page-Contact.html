@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>Page d'Accceuil :</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Style/Feuille.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="JScript/Script.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+  <h3>BARBER-COFFEE</h3>
+  <p>Salon de Coiffure + Salon de Thé </p>
+</div>
+<nav class="navbar navbar-inverse">        
+  <div class="container-fluid">
+    <div class="navbar-header">
+         <a class="navbar-brand" href="#" title="Salon de Coiffure et Salon de Thé">BARBER-COFFEE</a>
+    </div>
+    <ul class="nav navbar-nav">   
+        <div class="btn-group">
+            <a href="Index.html">
+               <button type="button" class="btn btn-primary navbar-btn">Acceuil</button>
+            </a>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary">Page Produits</button>
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                      <span class="caret"></span>
+            </button>
+       <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Produits du Café</a></li>
+            <li><a href="#">Produits du Coiffure</a></li> 
+       </ul>
+      </div>
+      <div class="btn-group">           
+            <a href="Recherche.html">   
+               <button type="button" class="btn btn-primary navbar-btn">Recherche</button>
+            </a>
+      </div>
+      <div class="btn-group">           
+            <a href="Page-Contact.html">   
+               <button type="button" class="btn btn-primary navbar-btn">Contact</button>
+            </a>
+      </div>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">   
+        <li>  <form class="navbar-form navbar-left" action="">
+                    <div class="form-group">
+                           <input type="text" class="form-control" placeholder="Rechercher">
+                    </div>
+                    <button type="submit" class="btn btn-default">Go</button>
+              </form>
+        </li>         
+        <li><a href="Page-Inscription.html" ><span class="glyphicon glyphicon-user"></span> S'inscrire</a></li> 
+        <li class="dropdown">
+                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Se Connecter <span class="glyphicon glyphicon-log-in"></span></a>
+          <div class="dropdown-menu">
+            <form action="Page-Administration.html" id="formLogin" class="form container-fluid" method="post" enctype="multipart/form-data">
+              <div class="form-group">
+                <label for="usr">Login:</label>
+                <input type="text" class="form-control" id="usr">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd">
+              </div>
+              <button type="submit" id="btnLogin" class="btn-block" title="Verifier Vos coordonnées">Connecter</button>
+            </form>
+            <div class="container-fluid">
+              <br>
+              <a class="small" href="#">Mot de passe oublié?</a>
+            </div> 
+          </div>
+        </li>
+      </ul>
+      
+  </div>
+</nav>  
+  
+<div class="container-fluid"> 
+   <div class="row"> 
+      <div class="pre">
+        <div class="champ-saisie">          
+          <div class="champ-input"><h3>Remplir le Formulaire Svp ..!! </h3></div>    
+        </div>
+        <table class="table table-bordered table-striped">            
+        <form action="/action_page.php">
+           <tbody id="myTable">             
+            <div class="form-group has-success has-feedback">
+                <tr class="info">
+                     <td class="td-vide" rowspan="3"><img src="images/profil.jpg" width="150px"height="150px"></td>
+                     <td><label class="control-label" for="inputSuccess">Email :</label></td>
+                     <td><input type="email" class="form-control" id="inputSuccess" placeholder="Votre email@email.com"> </td>
+                     <td class="td-videD" rowspan="4"></td>
+                </tr>
+            </div>           
+            <div class="form-group has-success has-feedback">
+                <tr class="info"> 
+                     <td><label class="control-label" for="inputSuccess">Objet :</label></td>
+                     <td><input type="text" class="form-control" id="inputSuccess" placeholder="Votre Objet"> </td> 
+                </tr>
+            </div>         
+            <div class="form-group has-success has-feedback">
+                <tr class="info"> 
+                     <td><label class="control-label" for="inputSuccess">Message :</label></td> 
+                     <td><textarea class="form-textarea" id="inputSuccess" placeholder="Votre Message" rows="8" cols="10" readonly></textarea></td>
+                     
+                </tr>
+            </div>                
+            <div class="form-group has-success has-feedback">
+                <tr class="info">
+                     <td colspan="3"style="text-align: right;">
+                     <button type="submit" class="btn btn-warning">Enregistrer</button>
+                     <button type="reset" class="btn btn-warning">Annuler</button> </td> 
+                </tr>
+            </div>
+           </tbody>
+        </table>
+        </form>
+  
+     </div>
+   </div>     
+   <div class="row">     
+     <ul class="pager">
+       <li ><a href="#">Precedant</a></li>
+       <li ><a href="#">Suivant</a></li>
+     </ul>
+  </div>
+</div>
+</body>
+</html>
